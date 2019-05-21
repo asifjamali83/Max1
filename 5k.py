@@ -12,53 +12,53 @@ from googletrans import Translator
 import youtube_dl
 
 cl = LineClient()
-#cl = LineClient(authToken='MASUKAN TOKENMU DISINI')
+cl = LineClient(authToken='EFrLvsLrPrRt0BcMNcp8.FPNfS/tWhjxbbnczp8qzMa.ao8HhJRl9jGTebdgQSgnJATmgFI+1nwrBcFWZRYoemM=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient()
-#ki = LineClient(authToken='MASUKAN TOKENMU DISINI')
+ki = LineClient(authToken='EFVYe8wUsUf8aObxZwZa.RqXlEuMyCo0SX+f7rAWbUG.40/nDFYYYfEj/IdeqJKVmLWw7TGF41bCcjxkrTTkOn0=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 kk = LineClient()
-#kk = LineClient(authToken='MASUKAN TOKENMU DISINI')
+kk = LineClient(authToken='EFcZfdEupGGCD1fIsbW8.V9fPQ4Ni715zhNxzTDLx/a.gQInzheF7+eRQSpQ0tw79AmAWgVlYZxec8v6M+4pZqs=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 kc = LineClient()
-#kc = LineClient(authToken='MASUKAN TOKENMU DISINI')
+kc = LineClient(authToken='EFVqMTso9nRbq1jj1zA7.4ciXpOp+ngV1ye23dcM5vW.QrGHXZc+stlykq7OzEoPjMj93PtwU2gOs+21wJuJ5s4=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 kb = LineClient()
-#kb = LineClient(authToken='MASUKAN TOKENMU DISINI')
+kb = LineClient(authToken='EFejClln462ICZstchP9.sq7xakrN1v28/yW8CSq42q.yMvO9Sd9bkT5a/9OlaUdbKC72P2u8yTl/Dm3vMwEf+k=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
 kd = LineClient()
-#kd = LineClient(authToken='MASUKAN TOKENMU DISINI')
+kd = LineClient(authToken='EFxAd6jWgD40anlvRcPa.uA70OmZ6xGXhLjifkBHlgG.wAstE1ByXCfJxtTUvsS+fGtnDJXx6FcFFQ6mAcLA6EY=')
 kd.log("Auth Token : " + str(kd.authToken))
 channel5 = LineChannel(kd)
 kd.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
 sw = LineClient()
-#sw = LineClient(authToken='MASUKAN TOKENMU DISINI')
+sw = LineClient(authToken='EFKuytqY5vtJChyBwlpb.bAXEGo6vXQI0VRhomlb3MW.fxU/bsmFUrNzO5xJc7LVYcWNiTfz387SaRO9+c0DXg0=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["uafd65893655c791f07c9ff31cbbc28d1"]
-owner = ["uafd65893655c791f07c9ff31cbbc28d1"]
-admin = ["uafd65893655c791f07c9ff31cbbc28d1"]
-staff = ["uafd65893655c791f07c9ff31cbbc28d1"]
+creator = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+owner = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+admin = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+staff = ["u7e99c5b3e4f01c95c104d0993fc41998"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
